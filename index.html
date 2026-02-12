@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-background">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <!-- Step 1: Landing Page -->
+    <div id="step1" class="step active">
+        <div class="container">
+            <img src="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" alt="Cute teddy bear" class="gif">
+            <h1>I have something important to ask you...</h1>
+            <button onclick="goToStep(2)" class="btn btn-primary">Continue 💝</button>
+        </div>
+    </div>
+
+    <!-- Step 2: The Big Question -->
+    <div id="step2" class="step">
+        <div class="container">
+            <img src="https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif" alt="Hearts" class="gif">
+            <h1>Will you be my Valentine? 💕</h1>
+            <div class="button-group">
+                <button onclick="celebrate()" class="btn btn-yes">Yes! 💖</button>
+                <button id="noBtn" class="btn btn-no">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 3: First Persuasion -->
+    <div id="step3" class="step">
+        <div class="container">
+            <img src="https://media.giphy.com/media/L2qukNXGjccyuAYd3W/giphy.gif" alt="Puppy eyes" class="gif">
+            <h1>Are you sure? 🥺</h1>
+            <p>Look at this cute face...</p>
+            <div class="button-group">
+                <button onclick="celebrate()" class="btn btn-yes btn-bigger">Yes! 💖</button>
+                <button id="noBtn2" class="btn btn-no btn-smaller">Still No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 4: Increased Persuasion -->
+    <div id="step4" class="step">
+        <div class="container">
+            <img src="https://media.giphy.com/media/JmD9mkDmzvXE7nxy7j/giphy.gif" alt="Dramatic cat" class="gif">
+            <h1>Please? 🥹</h1>
+            <p>I'll buy you your favorite snacks...</p>
+            <div class="button-group">
+                <button onclick="celebrate()" class="btn btn-yes btn-much-bigger">YES! 💖</button>
+                <button id="noBtn3" class="btn btn-no btn-tiny">no</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 5: Almost There -->
+    <div id="step5" class="step">
+        <div class="container">
+            <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Melting heart" class="gif">
+            <h1>Come on, you know you want to say yes... 🥺</h1>
+            <p>Just click the big button!</p>
+            <div class="button-group">
+                <button onclick="celebrate()" class="btn btn-yes btn-giant">YES!!! 💖💖💖</button>
+                <button id="noBtn4" class="btn btn-no btn-microscopic">n</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 6: Celebration -->
+    <div id="step6" class="step celebration">
+        <div class="container">
+            <img src="https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif" alt="Celebration" class="gif">
+            <h1>YAY! I knew you'd say yes! 💕✨</h1>
+            <p class="celebration-text">Can't wait to spend Valentine's Day with you! ❤️</p>
+            <div class="heart-burst">
+                <span>💖</span>
+                <span>💝</span>
+                <span>💗</span>
+                <span>💓</span>
+                <span>💕</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
