@@ -1,0 +1,34 @@
+# Original GIF URLs
+# You can download these or find your own on Giphy/Tenor
+
+landing.gif (Valentine hearts):
+https://media.giphy.com/media/l0HlSLbAuCRBTqJnW/giphy.gif
+
+level1.gif (Romantic hearts):
+https://media.giphy.com/media/26u4cqiYI30juCOGY/giphy.gif
+
+level2.gif (Pookie bear):
+https://media.giphy.com/media/d8fBXBsGWfHSXbWBBq/giphy.gif
+
+level3.gif (Valentine surprise):
+https://media.giphy.com/media/xTiTnH6CXkg5vbGU80/giphy.gif
+
+level4.gif (You can find your own - search "floating hearts valentine"):
+Recommended: Search Giphy for "floating hearts pink" or "valentine hearts animation"
+
+level5-happy.gif (Happy teddy):
+https://media.giphy.com/media/3oEdv5e5Zd2gsczAli/giphy.gif
+
+level5-sad.gif (Sad teddy):
+https://media.giphy.com/media/OPU6wzx8JrHna/giphy.gif
+
+celebration.gif (Celebration):
+https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif
+
+# How to Download from Giphy URL:
+# 1. Copy the URL above
+# 2. Paste in browser
+# 3. Right-click on the GIF → "Save image as..."
+# 4. Save to this folder with the correct filename
+
+# Alternative: Use the PowerShell download script (download-gifs.ps1)
